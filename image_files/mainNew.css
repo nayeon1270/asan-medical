@@ -1,0 +1,660 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+#asanMain2023 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #111;
+  letter-spacing: -1px;
+}
+.fullWrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.fullWrap .leftBox {
+  position: relative;
+  overflow: hidden;
+  width: 580px;
+  float: left;
+}
+.fullWrap .rightBox {
+  position: relative;
+  overflow: hidden;
+  width: 580px;
+  float: right;
+}
+.main_visual {
+  position : relative;
+  overflow: hidden;
+  width: 100%;
+  height: 450px;
+}
+  
+.visual-swiper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 450px;
+  z-index: 999;
+}
+.visual-swiper .swiper-wrapper {
+}
+.visual-swiper .swiper-slide {
+  margin: 0;
+  border: none;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding-top: 0;
+  overflow: hidden;
+  width:100%;
+}
+  
+/* 삭제 예정 */
+.visual-swiper .main01 {
+  width:100%;
+  height:450px;
+  background: #fff url('/asan/images/mainNew/main01.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+.visual-swiper .main02 {
+  width:100%;
+  background: #fff url('/asan/images/mainNew/main02.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+.visual-swiper .main03 {
+  width:100%;
+  background: #fff url('/asan/images/mainNew/main03.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+/* 삭제 예정 */ 
+  
+.visual-swiper .btnVisual {
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+  }
+.visual-swiper .btnVisual a {
+  /*transition-duration: 90ms;
+  transition-timing-function: ease-in-out; */
+  background: #ff9c1d;
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  color:#fff;
+  border:none;
+  border-radius: 5px;
+  font-size:15px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  margin: 240px 0 0 50px;
+}
+
+.visual-swiper .swiper-pagination {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+}
+  
+.visual-swiper .visual-swiper-button-prev {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 25px;
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: transparent;
+  font-size: 0;
+  background: url('/asan/images/mainNew/btn_visual_left.png') 0 200px no-repeat;
+  z-index: 9999;
+}
+.visual-swiper .visual-swiper-button-next {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 25px;
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: transparent;
+  font-size: 0;
+  background: url('/asan/images/mainNew/btn_visual_right.png') 100% 200px no-repeat;
+  z-index: 9999;
+}
+  
+.searchArea {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 80px;
+  background: #009999;
+  text-align: center;
+}
+.searchArea .search_input {
+  padding-top: 15px;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+.searchArea .search_input label {
+  display: inline-block;
+  width: 95px;
+  color: #fff;
+  font-weight: 500;
+}
+.searchArea .search_input a {
+  position: absolute;
+  top: 24px;
+  right: 290px;
+  width: 31px;
+  height: 31px;
+  background: url('/asan/images/mainNew/ico_search.png') no-repeat;
+}
+.h1Title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.h2Title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.mainServ {
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0;
+  border-bottom: 1px solid #ddd;
+}
+.mainServ .serv01 {
+  margin: 0 auto;
+  width: 1198px;
+  height: 198px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.mainServ .serv01 li a {
+  width: 240px;
+  height: 68px;
+  float: left;
+  text-align: center;
+  padding-top: 130px;
+  font-weight: 600;
+  font-size:18px;
+}
+.mainServ .serv01 li a.serv0101 {
+  width: 239px !important;
+  background: url('/asan/images/mainNew/ico_serv_doc.png') 0 0 no-repeat;
+}
+.mainServ .serv01 li a.serv0102 {
+  background: url('/asan/images/mainNew/ico_serv_dept.png') 0 0 no-repeat;
+}
+.mainServ .serv01 li a.serv0103 {
+  background: url('/asan/images/mainNew/ico_serv_resv.png') 0 0 no-repeat;
+}
+.mainServ .serv01 li a.serv0104 {
+  background: url('/asan/images/mainNew/ico_serv_first.png') 0 0 no-repeat;
+}
+.mainServ .serv01 li a.serv0105 {
+  width: 239px;
+  background: url('/asan/images/mainNew/ico_serv_chart.png') 0 0 no-repeat;
+}
+.mainServ .serv01:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.mainServ .serv02 {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+.mainServ .serv02 li a {
+  width: 350px;
+  height: 90px;
+  line-height: 90px;
+  float: left;
+  text-align: left;
+  border: none;
+  border-radius: 10px;
+  padding-left: 30px;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  font-size:18px;
+}
+.mainServ .serv02 li a.serv0201 {
+  background: #009999 url('/asan/images/mainNew/ico_serv_certi.png') 100% 0 no-repeat;
+}
+.mainServ .serv02 li a.serv0202 {
+  background: #60cdc7 url('/asan/images/mainNew/ico_serv_duty.png') 100% 0 no-repeat;
+  margin-left: 30px;
+}
+.mainServ .serv02 li a.serv0203 {
+  background: #009999 url('/asan/images/mainNew/ico_serv_downi.png') 100% 0 no-repeat;
+  margin-left: 30px;
+}
+.mainServ .serv02:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.inforArea {
+  position: relative;
+  overflow: hidden;
+  margin: 80px auto;
+  width: 1200px;
+}
+.inforArea .telBox {
+  width: 548px;
+  height: 133px;
+  border: 1px solid #ddd;
+  background: #f9f9f9 url('/asan/images/mainNew/ico_tel.png') 100% 0 no-repeat;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 35px 0 0 30px;
+  overflow: hidden;
+}
+.inforArea .telBox span {
+  color: #009999;
+  font-size: 50px;
+  font-weight: 600;
+  display: block;
+  line-height: 1em;
+  margin-top: 10px;
+}
+.inforArea .hospital {
+  margin-top: 40px;
+  display: block;
+  overflow: hidden;
+}
+.inforArea .hospital li {
+  float: left;
+  width: 238px;
+  height: 93px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 25px 0 0 30px;
+}
+.inforArea .hospital li span {
+  color: #009999;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  line-height: 1em;
+  margin-top: 10px;
+}
+.inforArea .hospital li+li {
+  margin-left: 40px;
+}
+.inforArea .hpcBox {
+  width: 548px;
+  height: 133px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 35px 0 0 30px;
+  overflow: hidden;
+}
+.inforArea .hpcBox .hpcTel {
+  position: relative;
+}
+.inforArea .hpcBox .hpcTel span {
+  position: absolute;
+  top: 2px;
+  left: 295px;
+  color: #009999;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.inforArea .orgBtn {
+  margin-top: 25px;
+}
+.inforArea .orgBtn li a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  float: left;
+  background: #ff9c1d;
+  border-radius: 5px;
+  border: none;
+  padding: 0 34px;
+  line-height: 35px;
+  height: 35px;
+  display: inline-block;
+}
+.inforArea .orgBtn li a.gap {
+  margin-left: 20px;
+}
+.inforArea .goSite {
+  margin-top: 40px;
+  display: block;
+}
+.inforArea .goSite li {
+}
+.inforArea .goSite li a.recruit {
+  background: url('/asan/images/mainNew/bg_recruit.png') 0 0 no-repeat;
+}
+.inforArea .goSite li a.funeral {
+  background: url('/asan/images/mainNew/bg_funeral.png') 0 0 no-repeat;
+  margin-left: 40px;
+}
+.inforArea .goSite li a {
+  font-weight: 500;
+  color: #fff;
+  float: left;
+  width: 270px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  display: inline-block;
+  font-size:18px;
+}
+.inforArea:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.healthArea {
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+.healthArea .healthStory {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  overflow: hidden;
+}
+.healthArea .healthStory .healthWrap {
+  width: 578px;
+  height: 288px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  padding-top: 35px;
+  text-align: center;
+  overflow: hidden;
+}
+.healthArea .healthStory .pedia {
+  margin-top: 40px;
+  display: block;
+}
+.healthArea .healthStory .pedia li a {
+  float: left;
+  width: 240px;
+  height: 80px;
+  line-height: 80px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  padding-left: 30px;
+  text-align: left;
+  color: #fff;
+  display: inline-block;
+  font-size:18px;
+}
+.healthArea .healthStory .pedia li a.dise {
+  background: #ff9c1d url('/asan/images/mainNew/ico_health_dise.png') 100% 0 no-repeat;
+}
+.healthArea .healthStory .pedia li a.symp {
+  background: #ff9c1d url('/asan/images/mainNew/ico_health_symp.png') 100% 0 no-repeat;
+  margin-left: 40px;
+}
+.healthArea .healthStory .pedia li a.check {
+  background: #009999 url('/asan/images/mainNew/ico_health_check.png') 100% 0 no-repeat;
+}
+.healthArea .healthStory .pedia li a.drug {
+  background: #009999 url('/asan/images/mainNew/ico_health_drug.png') 100% 0 no-repeat;
+  margin-left: 40px;
+}
+.newsArea {
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.newsArea h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.newsArea .list {
+  width: 518px;
+  height: 118px;
+  padding: 25px 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.newsArea .list li {
+  height: 40px;
+  line-height: 40px;
+}
+.newsArea .list li a {
+  font-size: 18px;
+  color: #444;
+  font-weight: 500;
+}
+.newsArea .list li span {
+  font-weight: 400;
+  color: #999;
+  font-size: 15px;
+  position: absolute;
+  right: 30px;
+}
+.newsArea .bnr {
+  margin-top: 40px;
+}
+.snsArea {
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0;
+  width: 100%;
+  background: #f9f9f9;
+}
+.snsArea .snsIcon {
+  text-align: center;
+  overflow: hidden;
+}
+.snsArea .snsIcon li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.health-swiper {
+  position: relative;
+  overflow: hidden;
+  margin: 30px auto 0;
+  width: 420px;
+  height: 180px;
+  padding:0 50px;
+  z-index: 999;
+}
+.health-swiper .swiper-wrapper {
+}
+.health-swiper .swiper-slide {
+  width: 200px !important;
+  height: 170px;
+  border: none;
+  float: left;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-size: 15px;
+  padding-top: 0;
+  overflow: hidden;
+}
+.health-swiper .swiper-slide a {
+  position: relative;
+  transition-duration: 90ms;
+  transition-timing-function: ease-in-out;
+}
+.health-swiper .swiper-slide .imbBrd {
+  display: block;
+  position: relative;
+  border:1px solid #ddd;
+}
+.health-swiper .swiper-slide .vodTime {
+  display: inline-block;
+  position: absolute;
+  bottom: 37px;
+  right: 0;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 5px;
+  background: #000;
+}
+.health-swiper .swiper-slide .vodTit {
+  display: block;
+  color: #444;
+  font-size: 18px;
+  padding-top:10px;
+  text-align: left;
+}
+.health-swiper .health-swiper-button-prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 170px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 0;
+  background: #fff url('/asan/images/mainNew/btn_health_left.png') 0 56px no-repeat;
+  z-index: 9999;
+}
+.health-swiper .health-swiper-button-next {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 170px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 0;
+  background: #fff url('/asan/images/mainNew/btn_health_right.png') 100% 56px no-repeat;
+  z-index: 9999;
+}
+
+  
+.bnr-swiper {
+  position: relative;
+  overflow: hidden;
+  width:1050px !important;
+  margin: 80px auto;
+  height: 150px;
+  z-index: 999;
+  padding:0 75px;
+}
+.bnr-swiper .swiper-wrapper {
+}
+  
+.bnr-swiper .swiper-slide a {
+  width: 148px !important;
+  height: 88px;
+  border-radius: 75px;
+  border: 1px solid #ddd;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding-top: 60px;
+  overflow: hidden;
+  color: #111;
+  transition-duration: 90ms;
+  transition-timing-function: ease-in-out;
+}
+.bnr-swiper a.ico01 {
+  background: url('/asan/images/mainNew/ico_link_loca.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico02 {
+  background: url('/asan/images/mainNew/ico_link_park.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico03 {
+  background: url('/asan/images/mainNew/ico_link_enter.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico04 {
+  background: url('/asan/images/mainNew/ico_link_around.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico05 {
+  background: url('/asan/images/mainNew/ico_link_amen.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico06 {
+  background: url('/asan/images/mainNew/ico_link_voc.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico07 {
+  background: url('/asan/images/mainNew/ico_link_praise.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico08 {
+  background: url('/asan/images/mainNew/ico_link_nanum.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico09 {
+  background: url('/asan/images/mainNew/ico_link_volun.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico10 {
+  background: url('/asan/images/mainNew/ico_link_social.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico11 {
+  background: url('/asan/images/mainNew/ico_link_class.png') 0 0 no-repeat;
+}
+.bnr-swiper a.ico12 {
+  background: url('/asan/images/mainNew/ico_link_acade.png') 0 0 no-repeat;
+}
+.bnr-swiper .bnr-swiper-button-prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: transparent;
+  font-size: 0;
+  background: #fff url('/asan/images/mainNew/btn_visual_left.png') 0 52px no-repeat;
+  z-index: 9999;
+}
+.bnr-swiper .bnr-swiper-button-next {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55px;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: transparent;
+  font-size: 0;
+  background: #fff url('/asan/images/mainNew/btn_visual_right.png') 100% 52px no-repeat;
+  z-index: 9999;
+}

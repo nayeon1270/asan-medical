@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*
+ * NotoSansKR (Korean) http://www.google.com/fonts/earlyaccess v4
+ */
+
+*/
+
+@font-face { 
+	font-family:'Noto Sans KR';
+	font-weight:400;
+	src: url(/asan/css/google_fonts/NotoSansKR-Light.woff2) format('woff2'), 
+		 url(/asan/css/google_fonts/NotoSansKR-Light.woff) format('woff'), 
+		 url(/asan/css/google_fonts/NotoSansKR-Light.otf) format('opentype');
+}
+
+@font-face { 
+	font-family:'Noto Sans KR';
+	font-weight:500;
+	src: url(/asan/css/google_fonts/NotoSansKR-Regular.woff2) format('woff2'), 
+		 url(/asan/css/google_fonts/NotoSansKR-Regular.woff) format('woff'), 
+		 url(/asan/css/google_fonts/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face { 
+	font-family:'Noto Sans KR';
+	font-weight: 600; 
+	src:url(/asan/css/google_fonts/NotoSansKR-Medium.woff2) format('woff2'), 
+		url(/asan/css/google_fonts/NotoSansKR-Medium.woff) format('woff'), 
+		url(/asan/css/google_fonts/NotoSansKR-Medium.otf) format('opentype');
+}
+ 
+@font-face { 
+	font-family:'Noto Sans KR';
+	font-weight: 700; 
+	src: url(/asan/css/google_fonts/NotoSansKR-Bold.woff2) format('woff2'),
+		 url(/asan/css/google_fonts/NotoSansKR-Bold.woff) format('woff'), 
+		 url(/asan/css/google_fonts/NotoSansKR-Bold.otf) format('opentype');
+}
+
+/* BLUEGRID RESET CSS ver 1.0(http://uid-lab.bluegrid.kr/entry/resetcss) :: edit by won yong bong (A.K.A dstyle) | License: none (public domain) */
+/* eric meyer Reset CSS v2.0(http://meyerweb.com/eric/tools/css/reset/) | License: none (public domain) */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent;}/*font-size:100%*/
+body { line-height:1; font-family:'Noto Sans KR','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana; font-size:15px; -webkit-text-size-adjust: none; font-weight:400 !important;}/**/
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section {display:block;} /* delete vertical-align */
+body,html { width:100%; background:#fff; }
+ol,ul,li { list-style:none;}
+blockquote,q { quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after { content:''; content:none;}
+table { border-collapse:collapse; border-spacing:0;}
+dt { display:block;}
+a { cursor:pointer;}
+hr { display:none;}
+input, select, img { vertical-align:middle;}
+input, select, textarea { font-family:'Noto Sans KR','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana;}
+
+/* Web Content Accessibility TTS(Text To Speech) Code */
+.tts { position:absolute; width:0; height:0; font-size:0; line-height:0; overflow:hidden; visibility:hidden;}
+caption, legend { visibility:hidden; width:0; height:0; line-height:0; font-size:0; overflow:hidden;}
+
+/* add Project Leaders Common CSS */
+body,input,select,textarea { color:#444; line-height:1.5;} /* font Setup Code */
+a { color:#444; text-decoration:none;} /* anchor (normal) Setup Code */
+a:hover { text-decoration:underline;} /* anchor (mouse over) Setup Code */
+input.text { padding:2px; height:19px; border:1px solid #cdcdcd;} /* input:text Setup Code */
+select.select { height:23px; border:1px solid #cdcdcd;} /* select element Setup Code */
+textarea.textarea { width:98%; border:1px solid #cdcdcd;} /* textarea.textarea Setup Code */
+textarea::placeholder {	color: #888;font-weight: 400;	font-size: 13px;}
+.clearfix:after { content: "."; display: block; height: 0; overflow: hidden; clear: both;}
+.vtMiddle { vertical-align:middle;}
+
+/* skipToContent */
+#skipToContent a { position:absolute; top:0px; left:0px; z-index:9999; width:100%; height:1px; margin-top:-1px; display:block; 	background-color:#3875c1; font-size:14px; font-weight:500; color:#fff; line-height:1; text-align:center; overflow:hidden;}
+#skipToContent a:focus,
+#skipToContent a:active { margin-top:0px; height:auto; padding:10px 0px;}
+
+/* 공통 - 컨덴츠 폰트페밀리 고정 */
+html * {font-family:'Noto Sans KR' !important;}
+html * select{font-family:'Noto Sans KR' !important;}

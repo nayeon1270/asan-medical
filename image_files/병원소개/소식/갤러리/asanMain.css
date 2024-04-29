@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+#asanMn {width:1198px; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+#asanMn:after {content:""; display:block; clear:both;}
+
+/* 메인 레이아웃 */
+.asanMn-column {float:left; height:1302px; border-top:1px solid transparent;}
+.asanMn-column.column1 {width:299px; border-right:1px solid #ddd;}
+.asanMn-column.column2 {width:299px; border-right:1px solid #ddd;}
+.asanMn-column.column3 {width:299px; border-right:1px solid #ddd;}
+.asanMn-column.column4 {width:298px;}
+
+.asanMn-section {clear:both; position:relative; float:left; width:100%; border-bottom:1px solid #ddd;}
+.asanMn-section.section0101 {height:459px;} /* 의료진예약 */
+.asanMn-section.section0102 {height:228px;} /* 진료예약 */
+.asanMn-section.section0103 {height:342px;} /* 진료과안내 */
+.asanMn-section.section0104 {height:269px;} /* 건강검진안내 */
+
+.asanMn-section.section0201 {height:424px;} /* 증상백과/질환백과 */
+.asanMn-section.section0202 {height:312px;} /* 건강TV */
+.asanMn-section.section0203 {height:169px;} /* 건강강좌 */
+.asanMn-section.section0204 {height:224px;} /* 약물정보 */
+.asanMn-section.section0205 {height:168px;} /* 학술행사 */
+
+.asanMn-section.section0301 {height:402px;} /* 오시는길/주차장안내 */
+.asanMn-section.section0302 {height:226px;} /* 전화번호안내 */
+.asanMn-section.section0303 {height:249px;} /* 둘러보기 */
+.asanMn-section.section0304 {height:241px;} /* 편의시설 */
+.asanMn-section.section0305 {height:179px;} /* 장례식장 */
+
+.asanMn-section.section0401 {height:258px;} /* 배너영역1 */
+.asanMn-section.section0401 .list {position:relative; padding:21px 16px 0 0; text-align:right;}
+.asanMn-section.section0401 .list button {overflow:hidden; margin:0; padding:0; border:none; background:transparent; cursor:pointer;}
+.asanMn-section.section0401 .list li.item {display:inline;}
+.asanMn-section.section0401 .list li.item .anchor {position:relative; width:12px; height:12px; vertical-align:top; z-index:3; background:url('/asan/images/main/banner_anchor_normal.png') 0 0 no-repeat;}
+.asanMn-section.section0401 .list li.item .thum {display:none; position:absolute; top:0; left:0; z-index:2;}
+.asanMn-section.section0401 .list li.control {position:relative; top:-1px; display:inline; margin-right:9px; vertical-align:top; z-index:3;}
+.asanMn-section.section0401 .list li.control button {vertical-align:top;}
+.asanMn-section.section0401 .list li.control .auto {width:8px; height:12px; background:url('/asan/images/main/banner_auto.png') 0 0 no-repeat;}
+.asanMn-section.section0401 .list li.control .stop {width:7px; height:12px; background:url('/asan/images/main/banner_stop.png') 0 0 no-repeat;}
+.asanMn-section.section0401 .list li.current .anchor {background:url('/asan/images/main/banner_anchor_active.png') 0 0 no-repeat;}
+.asanMn-section.section0401 .list li.current .thum {display:block;}
+
+.asanMn-section.section0402 {height:143px; border-bottom:none;} /* 배너영역2 */
+.asanMn-section.section0403 {height:372px;} /* 배너영역3 */
+.asanMn-section.section0404 {height:283px;} /* 고객커뮤니티 */
+.asanMn-section.section0405 {height:242px;} /* 주요메뉴 */
+
+/* 메인 컨텐츠 */
+#asanMn .title-big {margin:41px 0 55px 29px; height:78px; font-size:30px; font-weight:600; line-height:32px; color:#111; background:url('/asan/images/main/titleBig_bg.gif') bottom left no-repeat;}
+#asanMn .title-big .samll {display:inline-block; margin-top:-3px; font-size:22px; font-weight:normal; color:#666;}
+#asanMn .title {margin:24px 0 5px 30px; font-size:18px; line-height:22px; color:#111;}
+#asanMn .title a {color:#111;}
+#asanMn .text {margin:0 0 0 30px; font-size:13px; font-weight:600; line-height:16px; color:#666;}
+#asanMn .text a {color:#666; text-decoration:none;}
+
+#asanMn ul.buttonset {margin:20px 0 0 28px;}
+#asanMn ul.buttonset li {margin-top:5px;}
+#asanMn ul.buttonset li .button {display:inline-block; height:25px; padding:0 16px 0 15px; line-height:25px; font-size:13px; color:white; vertical-align:middle; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn ul.buttonset li .button:hover {text-decoration:underline;}
+#asanMn ul.buttonset li .button.sty1 {padding-right:35px; background:#ffa94c url('/asan/images/main/buttonset_sty1_bg.gif') top right no-repeat;} /* 오렌지색 */
+#asanMn ul.buttonset li .button.sty2 {background:#666;} /* 블랙 */
+
+#asanMn .section0101 {} /* 의료진예약 */
+#asanMn .section0101 .inner {display:block; border-top:1px solid #ddd; overflow:hidden; height:285px; background-position:left 176px; background-repeat:no-repeat; margin:0; padding:0;}
+#asanMn .section0101 .inner a { display:block; height:285px; margin-top:-24px;}
+#asanMn .section0101 .inner a:hover, 
+#asanMn .section0101 .inner a:focus,
+#asanMn .section0101 .inner a:active {text-decoration:none;}
+#asanMn .section0101 .inner h3 {margin:24px 0 5px 30px; padding:0; color:#0e787c; padding-top:24px;}
+#asanMn .section0102 {background:url('/asan/images/main/section0102_bg.png') bottom left no-repeat;} /* 진료예약 */
+#asanMn .section0102 h2.title a {color:#0e787c;}
+#asanMn .section0102.bg1 {background:url('/asan/images/main/section0102_bg.png') bottom left no-repeat;}
+#asanMn .section0102.bg2 {background:url('/asan/images/main/section0102_bg2.png') bottom left no-repeat;}
+#asanMn .section0102.bg3 {background:url('/asan/images/main/section0102_bg3.png') bottom left no-repeat;}
+#asanMn .section0102.bg4 {background:url('/asan/images/main/section0102_bg4.png') bottom left no-repeat;}
+#asanMn .section0102 .list {margin:22px 0 0 135px; font-size:13px; line-height:22px;}
+#asanMn .section0102 .list li {background:url('/asan/images/main/bul1.gif') 0 10px no-repeat; margin-bottom:6px;}
+#asanMn .section0102 .list li a {display:block; width:118px; height:22px; text-align:left; padding-left:5px; font-weight:600; font-size:12px; color:#fff; background:#666; border:1px solid #666;}
+#asanMn .section0102 .list li a:hover, 
+#asanMn .section0102 .list li a:focus,
+#asanMn .section0102 .list li a:active {color:#333; border:1px solid #666; background:#fff; text-decoration:none;}
+#asanMn .section0103 {background:url('/asan/images/main/section0103_bg.png') bottom right no-repeat;} /* 진료과안내 */
+#asanMn .section0103 .list {width:200px; margin:29px 0 0 29px;}
+#asanMn .section0103 .list:after {content:""; display:block; clear:both;}
+#asanMn .section0103 .list li {float:left; margin:0 10px 6px 0;}
+#asanMn .section0103 .list li a {float:left; width:88px; height:24px; text-align:center; font-weight:600; font-size:13px; line-height:22px; color:#333; border:1px solid #ccc; background:white; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn .section0103 .list li a:hover,
+#asanMn .section0103 .list li a:focus,
+#asanMn .section0103 .list li a:active {color:white; border-color:#555; background:#555; text-decoration:none;}
+#asanMn .section0104 {/*background:url('/asan/images/main/section0104_bg.png') bottom right no-repeat;*/} /* 건강검진안내 */
+#asanMn .section0104 .healthTel {margin:10px 0 20px 30px; font-weight:600; font-size:18px; line-height:20px; color:#0e787c;}
+
+#asanMn .section0201 {background:url('/asan/images/main/section0201_bg.png') bottom right no-repeat;} /* 증상백과/질환백과 */
+#asanMn .section0201 .inner {overflow:hidden; height:250px;}
+#asanMn .section0201 .sty1 {width:100px;}
+#asanMn .section0201 .sty2 {width:82px;}
+#asanMn .section0202 {background:url('/asan/images/main/section0202_bg.png') bottom right no-repeat;} /* 건강TV */
+#asanMn .section0202 p.txt1 {margin:12px 0 0 30px; font-size:15px; font-weight:600; line-height:16px; color:#666;}
+#asanMn .section0202 p.txt2 {margin:5px 0 0 30px; font-size:13px; font-weight:600; line-height:16px; color:#666;}
+#asanMn .section0202 p.img {position:absolute; top:143px; left:79px;}
+#asanMn .section0202 .txt1 a {display: inline-block; width: 253px; height: auto;}
+#asanMn .section0203 {background:url('/asan/images/main/section0203_bg.png') bottom right no-repeat;} /* 건강강좌 */
+#asanMn .section0203 .list {margin:29px 0 0 29px;}
+#asanMn .section0203 .list:after {content:""; display:block; clear:both;}
+#asanMn .section0203 .list li {clear:both; float:left; margin:0 0 6px 0;}
+#asanMn .section0203 .list li a {float:left; width:109px; height:24px; text-align:center; font-weight:600; font-size:13px; line-height:22px; color:#333; border:1px solid #ccc; background:white; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn .section0203 .list li a:hover,
+#asanMn .section0203 .list li a:focus,
+#asanMn .section0203 .list li a:active {color:white; border-color:#555; background:#555; text-decoration:none;}
+#asanMn .section0204 {} /* 약물정보 */
+#asanMn .section0205 {background:url('/asan/images/main/section0205_bg.png') bottom right no-repeat;} /* 학술행사 */
+#asanMn .section0205 .list {margin:29px 0 0 29px;}
+#asanMn .section0205 .list:after {content:""; display:block; clear:both;}
+#asanMn .section0205 .list li {clear:both; float:left; margin:0 0 6px 0;}
+#asanMn .section0205 .list li a {float:left; width:109px; height:24px; text-align:center; font-weight:600; font-size:13px; line-height:22px; color:#333; border:1px solid #ccc; background:white; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn .section0205 .list li a:hover,
+#asanMn .section0205 .list li a:focus,
+#asanMn .section0205 .list li a:active {color:white; border-color:#555; background:#555; text-decoration:none;}
+
+#asanMn .section0301 {background:url('/asan/images/main/section0301_bg.png') bottom right no-repeat;} /* 오시는길/주차장안내 */
+#asanMn .section0301 .inner {overflow:hidden; height:228px;}
+#asanMn .section0301 .sty1 {width:110px;}
+#asanMn .section0301 .sty2 {width:74px;}
+#asanMn .section0302 {} /* 전화번호안내 */
+#asanMn .section0302 .tel {margin:0 0 20px 30px; font-weight:600; font-size:36px; line-height:40px; color:#0e787c;}
+#asanMn .section0302 .first { width:207px; height:95px; border:1px solid #ddd; background:#f5f5f5; margin:-10px 0 0 30px; padding:10px 15px 0 15px;}
+#asanMn .section0302 .first dt {font-size:13px; font-weight:600; color:#0e787c; margin-bottom:5px;}
+#asanMn .section0302 .first dd {font-size:13px; line-height:20px;}
+#asanMn .section0302 .first dd strong {display:inline-block; width:70px; padding:0 0 0 9px; background:url('/asan/images/common/bul_grayDot2x2.jpg') no-repeat 0 50%;}
+#asanMn .section0303 {} /* 둘러보기 */
+#asanMn .section0304 {} /* 편의시설 */
+#asanMn .section0305 {} /* 장례식장 */
+
+#asanMn .section0401 {} /* 배너영역1 */
+#asanMn .section0402 {} /* 배너영역2 */
+#asanMn .section0402 a:focus,
+#asanMn .section0402 a:active {position:relative; z-index:99999;}
+#asanMn .section0403 {} /* 배너영역3 */
+#asanMn .section0403 a:focus,
+#asanMn .section0403 a:active {position:relative; z-index:99999;}
+#asanMn .section0404 {} /* 고객커뮤니티 */
+#asanMn .section0404 .list {width:298px; height:283px; background:url('/asan/images/main/section0406_bg_new.png') 0 0 no-repeat;}
+#asanMn .section0404 .list .grp {overflow:hidden; width:298px; height:71px; line-height: 71px; white-space:nowrap; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn .section0404 .list .grp .title {margin-left:100px;}
+#asanMn .section0404 .list .grp .text {margin-left:110px;}
+#asanMn .section0404 .list .grp1 {}
+#asanMn .section0404 .list .grp2 {}
+#asanMn .section0405 {background:url('/asan/images/main/section0407_bg_new.png') 0 0 no-repeat;} /* 주요메뉴 */
+#asanMn .section0405 .list {}
+#asanMn .section0405 .list li {height:122px; width:149px; display:inline-block; float: left;}
+#asanMn .section0405 .list li a { height:40px; text-align: center; padding-top:80px; font-size:15px; font-weight:600; color:#111; display: block;}
+#asanMn .section0405 .list:after {content:""; display:block; clear:both;}
+
+/* 뉴스소식/언론보도 */
+.asanMn-newsArea {height:125px; margin-top:-1px; border-top:1px solid #ddd;}
+.asanMn-newsAreaInner {width:1200px; height:100%; margin:0 auto;}
+.asanMn-news {position:relative; float:left; width:50%;}
+.moreTxt {position:absolute; left:56px; top:59px;}
+.moreTxt2 {position:absolute; left:50px; top:59px;}
+.moreTxt a, .moreTxt2 a {font-size:13px; color:#db330c;}
+.asanMn-news .title {position:absolute; top:27px; left:31px; font-size:18px; line-height:22px; color:#111;}
+.asanMn-news .title a {color:#111;}
+.asanMn-news .list {margin:23px 0 0 130px;}
+.asanMn-news .list li {background:url('/asan/images/main/bul2.gif') 0 12px no-repeat;}
+.asanMn-news .list li a {position:relative; display:block; width:450px; padding-left:9px; font-size:15px; line-height:26px; color:#666;}
+.asanMn-news .list li a .txt {display:block; width:370px; font-weight:600;color:#333;}
+.asanMn-news .list li a .txt .icon {vertical-align:baseline;}
+.asanMn-news .list li a .date {position:absolute; top:0; right:0; color:#333; font-size:13px; font-weight:600;}

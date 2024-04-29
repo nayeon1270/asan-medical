@@ -1,0 +1,16 @@
+@charset "utf-8"; 
+/* 통합검색 자동완성 기능 추가(KonanTechnology) */
+.allSearchWrap .auto_arr{background:url(/asan/images/search/arr_autocomplate.gif) no-repeat 0 0; display:inline-block; top:20px; right:55px; width:16px; height:16px; position:absolute; z-index:10; overflow:hidden; font-size:0; text-indent:-20000px;}
+.allSearchWrap .auto_arr.active {background:url(/asan/images/search/arr_autocomplate.gif) no-repeat 0 -16px;}
+
+.searchUnderline .autoKeyword {}
+
+.allSearchWrap .autoName {position: absolute; top: 160px; left: 0; background: #fff; width: 949px; display: block; padding: 15px 25px 20px;}
+.allSearchWrap .autoName .word {}
+.allSearchWrap .autoName ul.word li a {color:#333; font-size:15px; line-height: 30px;}
+.allSearchWrap .autoName ul.word li a span { color:#db330c; font-weight:600;}
+.allSearchWrap .autoName ul li .slt { text-decoration:underline;}
+.allSearchWrap .autoName .foot {z-index:1000; text-align: right; padding-top: 10px; border-top: 1px solid #eee; margin-top: 10px;}
+.allSearchWrap .autoName .foot a {display: inline-block; width: 110px; height: 30px; line-height: 30px; background: #ff9000; font-size: 13px; color: #fff; font-weight: 600; text-align: center;}
+
+.autoWord ul li .slt { text-decoration:underline;}
